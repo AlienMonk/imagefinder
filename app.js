@@ -2,7 +2,7 @@ dayNightTheme = () => {
     let date = new Date();
     let hour = date.getHours();
   
-    if(hour >= 7 && hour < 19){
+    if(hour >= 8 && hour < 20){
       document.body.style.backgroundColor = 'white';
       document.body.style.color = 'black';
     }
